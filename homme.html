@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Crocs | Men's Mental Health</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f8ff;
+    color:#1f2937;
+}
+
+
+/* NAVBAR */
+
+nav{
+    background:#0f172a;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+
+
+/* HERO */
+
+.hero{
+
+height:90vh;
+background:
+linear-gradient(
+rgba(15,23,42,.85),
+rgba(37,99,235,.8)
+),
+url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee")
+center/cover;
+
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+
+}
+
+
+.hero h1{
+font-size:70px;
+}
+
+
+.hero p{
+font-size:22px;
+max-width:700px;
+margin:20px auto;
+}
+
+
+.btn{
+display:inline-block;
+background:white;
+color:#2563eb;
+padding:14px 30px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+
+
+/* SECTIONS */
+
+section{
+padding:80px 10%;
+}
+
+
+.title{
+text-align:center;
+font-size:38px;
+margin-bottom:40px;
+color:#2563eb;
+}
+
+
+
+/* ABOUT */
+
+.about{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+}
+
+
+
+.card{
+background:white;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px #0002;
+}
+
+
+
+.card h3{
+color:#2563eb;
+margin-bottom:15px;
+}
+
+
+
+/* FEATURES */
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+
+}
+
+
+.box{
+
+background:white;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 20px #0002;
+
+}
+
+
+.box span{
+
+font-size:45px;
+
+}
+
+
+
+/* QUOTE */
+
+.quote{
+
+background:#2563eb;
+color:white;
+text-align:center;
+
+}
+
+
+.quote p{
+
+font-size:25px;
+font-style:italic;
+
+}
+
+
+
+/* CONTACT */
+
+
+form{
+
+max-width:600px;
+margin:auto;
+}
+
+
+input,textarea{
+
+width:100%;
+padding:15px;
+margin:10px;
+border-radius:10px;
+border:1px solid #ccc;
+
+}
+
+
+button{
+
+background:#2563eb;
+color:white;
+border:none;
+padding:15px 35px;
+border-radius:20px;
+cursor:pointer;
+
+}
+
+
+/* FOOTER */
+
+
+footer{
+
+background:#0f172a;
+color:white;
+text-align:center;
+padding:35px;
+
+}
+
+
+
+@media(max-width:800px){
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.about,
+.grid{
+grid-template-columns:1fr;
+}
+
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<nav>
+
+<div class="logo">CROCS</div>
+
+<div>
+
+<a href="about.html">About</a>
+<a href="hhh.html">Help</a>
+<a href="rrr.html">Resources</a>
+<a href="ccc.html">Contact</a>
+
+</div>
+
+</nav>
+
+
+
+
+
+<section class="hero">
+
+<div>
+
+<h1>CROCS</h1>
+
+<p>
+A men's mental health movement helping men speak ,
+build strength, and support each other.
+</p>
+
+<a class="btn" href="#about">
+Learn More
+</a>
+
+</div>
+
+</section>
+
+
+
+
+
+<section id="about">
+
+
+<h2 class="title">
+What Is Crocs?
+</h2>
+
+
+<div class="about">
+
+
+<div class="card">
+
+<h3>Our Purpose</h3>
+
+<p>
+
+Crocs is a project created to change the way men view mental health.
+We encourage honest conversations and create a safe environment
+where men can express emotions without fear.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Our Vision</h3>
+
+<p>
+
+We believe every man deserves support, understanding, and access
+to mental health awareness. Our goal is a future where seeking help
+is normal.
+
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<section id="help">
+
+
+<h2 class="title">
+How We Help
+</h2>
+
+
+
+<div class="grid">
+
+
+<div class="box">
+
+<span>🧠</span>
+
+<h3>Mental Awareness</h3>
+
+<p>
+Teaching men about emotional wellbeing and mental health.
+</p>
+
+</div>
+
+
+
+
+<div class="box">
+
+<span>🤝</span>
+
+<h3>Community</h3>
+
+<p>
+Building supportive spaces where men can connect.
+</p>
+
+</div>
+
+
+
+
+<div class="box">
+
+<span>💪</span>
+
+<h3>Growth</h3>
+
+<p>
+Helping men become stronger emotionally and mentally.
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="quote">
+
+
+<p>
+"Strength is not hiding your struggles. Strength is facing them."
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="Motto">
+
+
+<h2 class="title">
+Our Motto 
+</h2>
+
+
+
+<div class="card">
+
+<h3 align="center">Recite !!</h3>
+
+<ul>
+
+<p align="center">STRONG MINDS🧠 , STRONG MAN💪</p>
+
+</ul>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="contact">
+
+
+<h2 class="title">
+Facing abuse, Contact Us         
+</h2>
+
+<div class="container">
+ 
+  <form target="_blank" action="https://formsubmit.co/mukwewaedmond1@gmail.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+<h2>Cros</h2>
+
+<p>
+© 2026 Cros | Men's Mental Health Project. All Rights Reserved.
+</p>
+
+
+</footer>
+
+
+
+</body>
+</html>

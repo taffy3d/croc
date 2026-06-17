@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Help | Crocs</title>
+
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, Arial, sans-serif;
+}
+
+
+body{
+
+background:#f5f8ff;
+color:#1f2937;
+
+}
+
+
+
+/* NAV */
+
+nav{
+
+background:#0f172a;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+.logo{
+
+color:white;
+font-size:30px;
+font-weight:bold;
+
+}
+
+
+nav a{
+
+color:white;
+text-decoration:none;
+margin-left:25px;
+transition:.3s;
+
+}
+
+
+nav a:hover{
+
+color:#38bdf8;
+
+}
+
+
+
+
+
+/* HERO */
+
+.hero{
+
+height:55vh;
+
+background:
+linear-gradient(
+rgba(15,23,42,.85),
+rgba(37,99,235,.85)
+);
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+color:white;
+
+animation:fade 1.5s ease;
+
+}
+
+
+.hero h1{
+
+font-size:60px;
+
+animation:down 1s ease;
+
+}
+
+
+
+.hero p{
+
+font-size:20px;
+max-width:700px;
+margin:20px;
+
+animation:up 1.2s ease;
+
+}
+
+
+
+
+
+/* CONTENT */
+
+section{
+
+padding:70px 10%;
+
+}
+
+
+
+.title{
+
+text-align:center;
+font-size:40px;
+color:#2563eb;
+margin-bottom:40px;
+
+}
+
+
+
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+
+}
+
+
+
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 10px 25px #0002;
+
+transition:.3s;
+
+animation:float 3s infinite alternate;
+
+}
+
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+
+.card h2{
+
+color:#2563eb;
+margin-bottom:15px;
+
+}
+
+
+
+
+/* HELP BOX */
+
+
+.help{
+
+background:#2563eb;
+
+color:white;
+
+border-radius:20px;
+
+padding:40px;
+
+}
+
+
+
+.help h2{
+
+margin-bottom:20px;
+
+}
+
+
+
+.help li{
+
+margin:15px;
+
+}
+
+
+
+
+
+/* RESOURCES */
+
+
+.resource{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 10px 20px #0002;
+
+margin-bottom:20px;
+
+}
+
+
+
+.resource h2{
+
+color:#2563eb;
+
+}
+
+
+
+
+/* FOOTER */
+
+
+footer{
+
+background:#0f172a;
+
+color:white;
+
+text-align:center;
+
+padding:35px;
+
+}
+
+
+
+
+
+/* ANIMATIONS */
+
+
+@keyframes fade{
+
+from{
+opacity:0;
+}
+
+to{
+opacity:1;
+}
+
+}
+
+
+
+
+@keyframes down{
+
+from{
+
+transform:translateY(-60px);
+opacity:0;
+
+}
+
+to{
+
+transform:translateY(0);
+opacity:1;
+
+}
+
+}
+
+
+
+
+@keyframes up{
+
+from{
+
+transform:translateY(60px);
+opacity:0;
+
+}
+
+to{
+
+transform:translateY(0);
+opacity:1;
+
+}
+
+}
+
+
+
+
+
+@keyframes float{
+
+from{
+
+transform:translateY(0);
+
+}
+
+to{
+
+transform:translateY(-10px);
+
+}
+
+}
+
+
+
+
+
+@media(max-width:800px){
+
+
+nav{
+
+flex-direction:column;
+gap:15px;
+
+}
+
+
+.cards{
+
+grid-template-columns:1fr;
+
+}
+
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+
+}
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<nav>
+
+
+<div class="logo">
+Crocs
+</div>
+
+
+
+<div>
+
+<a href="homme.html">Home</a>
+
+<a href="hhh.html">Help</a>
+
+<a href="rrr.html">Resources</a>
+
+<a href="ccc.html">Contact</a>
+
+
+</div>
+
+
+</nav>
+
+
+
+
+
+
+
+<div class="hero">
+
+
+<div>
+
+<h1>
+Help & Support
+</h1>
+
+
+<p>
+
+A safe space to understand men's struggles,
+find support, and take action.
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<section>
+
+
+<h1 class="title">
+What Men Are Facing
+</h1>
+
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h2>
+Mental Health
+</h2>
+
+<p>
+
+Many men deal with stress, anxiety, depression,
+pressure to be strong, and loneliness but may not
+feel comfortable speaking about it.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>
+Abuse & Violence
+</h2>
+
+<p>
+
+Men can experience emotional, physical, or verbal abuse.
+Everyone deserves safety, respect, and support.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>
+Life Pressure
+</h2>
+
+<p>
+
+Work, relationships, finances, and expectations can
+create heavy pressure. Support can make challenges
+easier to manage.
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section>
+
+
+<div class="help">
+
+
+<h2>
+How Crocs Helps
+</h2>
+
+
+<ul>
+
+<li>Creating safe conversations about men's struggles</li>
+
+<li>Encouraging men to seek professional help</li>
+
+<li>Providing mental health awareness</li>
+
+<li>Building supportive communities</li>
+
+<li>Helping men feel heard and understood</li>
+
+
+</ul>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section>
+
+
+<h1 class="title">
+Places To Go For Help
+</h1>
+
+
+
+
+
+<div class="resource">
+
+
+<h2>
+Trusted People
+</h2>
+
+
+<p>
+
+Talk to someone you trust such as a family member,
+friend, teacher, mentor, counselor, or community leader.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="resource">
+
+
+<h2>
+Professional Support
+</h2>
+
+
+<p>
+
+Mental health professionals, therapists, and counselors
+can provide guidance and support through difficult times.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="resource">
+
+
+<h2>
+Emergency Support
+</h2>
+
+
+<p>
+
+If someone is in immediate danger, contact local emergency
+services or a trusted crisis support service in your area.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="resource">
+
+
+<h2>
+Remember</h2>
+
+
+<p>
+
+Asking for help is not weakness. Speaking up is a step
+towards healing and building a stronger future.
+
+</p>
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<footer>
+
+
+<h2>
+Cros
+</h2>
+
+
+<p>
+
+© 2026 Cros | Men's Mental Health Project. All Rights Reserved.
+
+</p>
+
+
+</footer>
+
+
+
+
+
+
+</body>
+
+</html>

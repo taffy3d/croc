@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About Men's Health | Crocs</title>
+
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, Arial, sans-serif;
+}
+
+
+body{
+    background:#f5f8ff;
+    color:#1f2937;
+    overflow-x:hidden;
+}
+
+
+
+/* NAV */
+
+nav{
+
+background:#0f172a;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+.logo{
+
+color:white;
+font-size:30px;
+font-weight:bold;
+
+}
+
+
+nav a{
+
+color:white;
+text-decoration:none;
+margin-left:25px;
+transition:.3s;
+
+}
+
+
+nav a:hover{
+
+color:#38bdf8;
+
+}
+
+
+
+/* HERO */
+
+
+.hero{
+
+height:70vh;
+
+background:
+linear-gradient(
+rgba(15,23,42,.85),
+rgba(37,99,235,.85)
+);
+
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+
+color:white;
+
+animation:fadeIn 1.5s ease;
+
+}
+
+
+.hero h1{
+
+font-size:60px;
+animation:slideDown 1s ease;
+
+}
+
+
+.hero p{
+
+font-size:20px;
+max-width:700px;
+margin:20px;
+
+animation:slideUp 1.2s ease;
+
+}
+
+
+
+
+
+/* CONTENT */
+
+
+section{
+
+padding:70px 10%;
+
+}
+
+
+
+.title{
+
+text-align:center;
+color:#2563eb;
+font-size:40px;
+margin-bottom:40px;
+
+animation:fadeIn 2s;
+
+}
+
+
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+
+}
+
+
+
+.card{
+
+background:white;
+padding:30px;
+border-radius:20px;
+
+box-shadow:0 10px 25px #0002;
+
+transition:.4s;
+
+animation:float 3s infinite alternate;
+
+}
+
+
+
+.card:hover{
+
+transform:translateY(-15px);
+
+}
+
+
+
+.card h2{
+
+color:#2563eb;
+margin-bottom:15px;
+
+}
+
+
+
+.card p{
+
+line-height:1.7;
+
+}
+
+
+
+
+
+/* HEALTH LIST */
+
+
+.list{
+
+background:#2563eb;
+color:white;
+border-radius:20px;
+padding:40px;
+
+animation:pulse 3s infinite;
+
+}
+
+
+
+.list li{
+
+margin:15px;
+
+}
+
+
+
+
+/* FOOTER */
+
+
+footer{
+
+background:#0f172a;
+color:white;
+text-align:center;
+padding:35px;
+
+}
+
+
+
+
+
+/* ANIMATIONS */
+
+
+@keyframes fadeIn{
+
+from{
+
+opacity:0;
+
+}
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+
+
+@keyframes slideDown{
+
+from{
+
+transform:translateY(-80px);
+opacity:0;
+
+}
+
+to{
+
+transform:translateY(0);
+opacity:1;
+
+}
+
+}
+
+
+
+@keyframes slideUp{
+
+from{
+
+transform:translateY(60px);
+opacity:0;
+
+}
+
+to{
+
+transform:translateY(0);
+opacity:1;
+
+}
+
+}
+
+
+
+@keyframes float{
+
+from{
+
+transform:translateY(0);
+
+}
+
+to{
+
+transform:translateY(-10px);
+
+}
+
+}
+
+
+
+@keyframes pulse{
+
+0%{
+
+transform:scale(1);
+
+}
+
+50%{
+
+transform:scale(1.03);
+
+}
+
+100%{
+
+transform:scale(1);
+
+}
+
+}
+
+
+
+
+@media(max-width:800px){
+
+
+.cards{
+
+grid-template-columns:1fr;
+
+}
+
+
+nav{
+
+flex-direction:column;
+gap:15px;
+
+}
+
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+
+}
+
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<nav>
+
+
+<div class="logo">
+Crocs
+</div>
+
+
+<div>
+
+<a href="homme.html">Home</a>
+
+<a href="hhh.html">Help</a>
+
+<a href="rrr.html">Resources</a>
+
+<a href="ccc.html">Contact</a>
+
+</div>
+
+
+</nav>
+
+
+
+
+
+
+
+
+<div class="hero">
+
+
+<div>
+
+
+<h1>
+About Men's Health
+</h1>
+
+
+<p>
+
+Understanding men's mental and physical health,
+building confidence, and creating a stronger future.
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<section>
+
+
+<h1 class="title">
+Why Men's Health Matters
+</h1>
+
+
+
+<div class="cards">
+
+
+
+<div class="card">
+
+<h2>
+Mental Strength
+</h2>
+
+<p>
+
+Men often face stress, pressure, anxiety, and emotional struggles.
+Taking care of mental health helps build confidence and resilience.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>
+Physical Wellness
+</h2>
+
+<p>
+
+Healthy habits such as exercise, good sleep, and proper nutrition
+help improve energy and overall wellbeing.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>
+Support Matters
+</h2>
+
+<p>
+
+Talking about problems and connecting with others creates a stronger
+and healthier community.
+
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section>
+
+
+<div class="list">
+
+
+<h2>
+Healthy Habits For Men
+</h2>
+
+
+<ul>
+
+<li>Exercise and stay active</li>
+
+<li>Build positive relationships</li>
+
+<li>Manage stress effectively</li>
+
+<li>Take breaks and rest</li>
+
+<li>Ask for help when needed</li>
+
+
+</ul>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<footer>
+
+
+<h2>
+Cros
+</h2>
+
+
+<p>
+
+© 2026 Cros | Men's Mental Health Project. All Rights Reserved.
+
+</p>
+
+
+</footer>
+
+
+
+
+
+
+</body>
+
+</html>
